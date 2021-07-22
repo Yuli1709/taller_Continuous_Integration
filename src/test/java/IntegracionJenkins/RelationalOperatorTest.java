@@ -19,7 +19,7 @@ public class RelationalOperatorTest {
 	}
 	
 	@Test
-	public void isGreaterTest1() {
+	public void isGreaterTest3() {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.isGreater(3, 3));
 	}
